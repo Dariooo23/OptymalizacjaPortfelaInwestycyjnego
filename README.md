@@ -54,5 +54,5 @@ k-means redukuje **186 → 22 reprezentantów**; optymalizujemy **tylko reprezen
 - [[Implementacja]] — pseudokod każdego modułu, decyzje projektowe, pułapki
 - [[Eksperymenty]] — tabela logów eksperymentów z hiperparametrami GA
 - [[portfolio_optimization.ipynb]] — Gotowy raport z całego projektu wraz z implementacją
-
+- [[prices.csv]] — Pobrane ceny spółek, na których wykonano projekt
 ---
