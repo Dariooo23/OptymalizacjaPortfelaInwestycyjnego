@@ -53,6 +53,6 @@ k-means redukuje **186 → 22 reprezentantów**; optymalizujemy **tylko reprezen
 - [[Dane]] — yfinance, wybór spółek, normalizacja, potencjalne problemy
 - [[Implementacja]] — pseudokod każdego modułu, decyzje projektowe, pułapki
 - [[Eksperymenty]] — tabela logów eksperymentów z hiperparametrami GA
-- [[Raport_szkic]] — gotowa struktura sekcji do przeklejenia do Notebooka
+- [[portfolio_optimization.ipynb]] — Gotowy raport z całego projektu wraz z implementacją
 
 ---
