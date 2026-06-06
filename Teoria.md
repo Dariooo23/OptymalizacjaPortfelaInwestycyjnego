@@ -28,9 +28,6 @@ $$
 ---
 
 ## 2. μ i σ portfela z macierzy kowariancji
-
-*(nawiązanie do [[04 - Probabilistyczne Podstawy ML]])*
-
 ### Wektor wag
 
 $$
@@ -91,8 +88,6 @@ sigma_p = np.sqrt(w @ cov @ w)    # odchylenie standardowe portfela
 
 ## 4. K-means — klasteryzacja aktywów
 
-*(nawiązanie do [[05 - Elementy Kompresji i K-means]])*
-
 ### Cel w projekcie
 
 Spółki reprezentowane jako punkty w przestrzeni $(\mu_i, \sigma_i)$. K-means grupuje je wg podobnego profilu ryzyko-zwrot. Z każdego klastra wybierany jest reprezentant (spółka najbliższa centroidowi), co redukuje liczbę aktywów do $k$ — jednego per klaster.
@@ -150,8 +145,6 @@ $s(i) \approx 1$ → punkt dobrze przypisany; $s(i) < 0$ → punkt w złym klast
 ---
 
 ## 5. Algorytm genetyczny
-
-*(nawiązanie do [[03 - Optymalizacja i Loss Functions]])*
 
 ### Reprezentacja (kodowanie chromosomu)
 
