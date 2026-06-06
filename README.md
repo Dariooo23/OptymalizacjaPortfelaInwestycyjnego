@@ -1,12 +1,3 @@
----
-tags:
-  - mpsi
-  - projekt
-  - portfolio-optimization
-wiki_type: hub
-last_updated: 2026-05-28
----
-
 # Projekt MPSI — Optymalizacja Portfela Inwestycyjnego
 
 Projekt semestralny na kurs MPSI (Matematyczne Podstawy Sztucznej Inteligencji).
@@ -15,25 +6,7 @@ algorytmem k-means, a następnie wyznaczenie wag portfela maksymalizujących
 wskaźnik Sharpe'a przy użyciu algorytmu genetycznego.
 
 **Deliverable:** jeden plik `portfolio_optimization.ipynb` będący jednocześnie
-kodem i raportem — zgodnie z wymaganiami kursu MPSI.
-
----
-
-## Plan pracy
-
-- [x] **Krok 1** — Pobranie i normalizacja danych (yfinance, ~186 spółek S&P 500)
-- [x] **Krok 2** — Implementacja k-means od zera — klasteryzacja spółek wg (σ, μ); wyłonienie reprezentantów klastrów
-- [x] **Krok 3** — Symulacja Monte Carlo — losowe portfele w przestrzeni ryzyko-zwrot, granica efektywna
-- [x] **Krok 4** — Implementacja algorytmu genetycznego od zera (kodowanie chromosomu, selekcja, crossover, mutacja, funkcja celu: Sharpe'a)
-- [x] **Krok 5** — Wizualizacje: scatter MC z punktem GA, krzywa zbieżności Sharpe'a po generacjach
-- [x] **Krok 6** — Raport: analiza hiperparametrów GA, porównanie z losowaniem, ograniczenia modelu
-
----
-
-## Status
-
-> **Ukończony** ✅ — pełny pipeline zaimplementowany i wykonany w `portfolio_optimization.ipynb`
-> (25 komórek, 9 wykresów, dane rzeczywiste, 0 błędów wykonania).
+kodem i raportem
 
 ## Wyniki (uruchomienie SEED=42, dane 2021-01 → 2024-01)
 
@@ -83,11 +56,3 @@ k-means redukuje **186 → 22 reprezentantów**; optymalizujemy **tylko reprezen
 - [[Raport_szkic]] — gotowa struktura sekcji do przeklejenia do Notebooka
 
 ---
-
-## Powiązane wykłady MPSI
-
-- [[05 - Elementy Kompresji i K-means]] — teoria k-means, k-means++, silhouette score
-- [[03 - Optymalizacja i Loss Functions]] — algorytmy genetyczne, selekcja, crossover, mutacja
-- [[02 - Elementy Losowania i Teoria Prawdopodobienstwa]] — Monte Carlo, generatory, całkowanie
-- [[04 - Probabilistyczne Podstawy ML]] — macierz kowariancji, rozkład normalny wielowymiarowy
-- [[01 - Geometria i Algebra Liniowa]] — normy, iloczyn skalarny
