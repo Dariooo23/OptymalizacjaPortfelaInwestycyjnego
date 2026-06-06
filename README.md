@@ -15,7 +15,7 @@ algorytmem k-means, a następnie wyznaczenie wag portfela maksymalizujących
 wskaźnik Sharpe'a przy użyciu algorytmu genetycznego.
 
 **Deliverable:** jeden plik `portfolio_optimization.ipynb` będący jednocześnie
-kodem i raportem — zgodnie z wymaganiami kursu MPSI.
+kodem i raportem
 
 ---
 
@@ -33,7 +33,6 @@ kodem i raportem — zgodnie z wymaganiami kursu MPSI.
 ## Status
 
 > **Ukończony** ✅ — pełny pipeline zaimplementowany i wykonany w `portfolio_optimization.ipynb`
-> (25 komórek, 9 wykresów, dane rzeczywiste, 0 błędów wykonania).
 
 ## Wyniki (uruchomienie SEED=42, dane 2021-01 → 2024-01)
 
@@ -83,11 +82,3 @@ k-means redukuje **186 → 22 reprezentantów**; optymalizujemy **tylko reprezen
 - [[Raport_szkic]] — gotowa struktura sekcji do przeklejenia do Notebooka
 
 ---
-
-## Powiązane wykłady MPSI
-
-- [[05 - Elementy Kompresji i K-means]] — teoria k-means, k-means++, silhouette score
-- [[03 - Optymalizacja i Loss Functions]] — algorytmy genetyczne, selekcja, crossover, mutacja
-- [[02 - Elementy Losowania i Teoria Prawdopodobienstwa]] — Monte Carlo, generatory, całkowanie
-- [[04 - Probabilistyczne Podstawy ML]] — macierz kowariancji, rozkład normalny wielowymiarowy
-- [[01 - Geometria i Algebra Liniowa]] — normy, iloczyn skalarny
