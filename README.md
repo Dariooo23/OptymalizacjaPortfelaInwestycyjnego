@@ -8,23 +8,6 @@ wskaźnik Sharpe'a przy użyciu algorytmu genetycznego.
 **Deliverable:** jeden plik `portfolio_optimization.ipynb` będący jednocześnie
 kodem i raportem
 
----
-
-## Plan pracy
-
-- [x] **Krok 1** — Pobranie i normalizacja danych (yfinance, ~186 spółek S&P 500)
-- [x] **Krok 2** — Implementacja k-means od zera — klasteryzacja spółek wg (σ, μ); wyłonienie reprezentantów klastrów
-- [x] **Krok 3** — Symulacja Monte Carlo — losowe portfele w przestrzeni ryzyko-zwrot, granica efektywna
-- [x] **Krok 4** — Implementacja algorytmu genetycznego od zera (kodowanie chromosomu, selekcja, crossover, mutacja, funkcja celu: Sharpe'a)
-- [x] **Krok 5** — Wizualizacje: scatter MC z punktem GA, krzywa zbieżności Sharpe'a po generacjach
-- [x] **Krok 6** — Raport: analiza hiperparametrów GA, porównanie z losowaniem, ograniczenia modelu
-
----
-
-## Status
-
-> **Ukończony** ✅ — pełny pipeline zaimplementowany i wykonany w `portfolio_optimization.ipynb`
-
 ## Wyniki (uruchomienie SEED=42, dane 2021-01 → 2024-01)
 
 k-means redukuje **186 → 22 reprezentantów**; optymalizujemy **tylko reprezentantów** (Sharpe = śr. z 5 ziaren):
