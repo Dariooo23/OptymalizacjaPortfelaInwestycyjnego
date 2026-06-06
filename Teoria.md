@@ -1,13 +1,3 @@
----
-tags:
-  - mpsi
-  - projekt
-  - teoria
-  - finanse
-wiki_type: concept
-last_updated: 2026-05-25
----
-
 # Teoria — Optymalizacja Portfela
 
 Podkład matematyczny dla projektu. Wszystkie wzory bezpośrednio wykorzystywane
