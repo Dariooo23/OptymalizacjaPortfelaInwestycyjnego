@@ -1,12 +1,3 @@
----
-tags:
-  - mpsi
-  - projekt
-  - eksperymenty
-wiki_type: analysis
-last_updated: 2026-05-28
----
-
 # Eksperymenty — Log Hiperparametrów GA
 
 Wyniki z [[portfolio_optimization|notebooka]]. Optymalizujemy **22 reprezentantów** wyłonionych przez k-means
