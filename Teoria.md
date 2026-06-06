@@ -219,8 +219,6 @@ $$
 
 ## 6. Monte Carlo w finansach
 
-*(nawiązanie do [[02 - Elementy Losowania i Teoria Prawdopodobienstwa]])*
-
 **Zasada:** estymacja przez wielokrotne losowe próbkowanie.
 
 **W projekcie:** losowe portfele z sympleksu prawdopodobieństwa:
