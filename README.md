@@ -1,12 +1,3 @@
----
-tags:
-  - mpsi
-  - projekt
-  - portfolio-optimization
-wiki_type: hub
-last_updated: 2026-05-28
----
-
 # Projekt MPSI — Optymalizacja Portfela Inwestycyjnego
 
 Projekt semestralny na kurs MPSI (Matematyczne Podstawy Sztucznej Inteligencji).
