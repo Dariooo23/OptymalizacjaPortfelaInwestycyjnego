@@ -1,13 +1,3 @@
----
-tags:
-  - mpsi
-  - projekt
-  - dane
-  - yfinance
-wiki_type: concept
-last_updated: 2026-05-28
----
-
 # Dane — Źródła i Normalizacja
 
 Opis danych wejściowych projektu, wyboru spółek, normalizacji i potencjalnych problemów.
