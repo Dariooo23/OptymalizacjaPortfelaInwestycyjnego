@@ -1,12 +1,3 @@
----
-tags:
-  - mpsi
-  - projekt
-  - implementacja
-wiki_type: concept
-last_updated: 2026-05-25
----
-
 # Implementacja — Pseudokod i Decyzje
 
 Każda sekcja = jeden krok planu pracy. Każda zawiera pseudokod, kluczowe
